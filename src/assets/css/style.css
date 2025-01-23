@@ -59,3 +59,30 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cpf-gerado {
+  font-size: 2em;
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}
+
+.gera-novo {
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  align-self: center;
+  display: block;
+  margin: 30px auto 0;
+}
